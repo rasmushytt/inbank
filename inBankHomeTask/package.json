@@ -1,0 +1,35 @@
+{
+  "name": "inBankHomeTask",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"cd endPoint/InBankApiEndPoint && mvn clean spring-boot:run\" \"cd .. && vite\""
+  ,
+    "build": "vite",
+    "preview": "vite preview",
+    "lint": "eslint . --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "@mdi/font": "7.0.96",
+    "@mdi/js": "^7.2.96",
+    "axios": "^1.4.0",
+    "core-js": "^3.29.0",
+    "mvn": "^3.5.0",
+    "nodemon": "^2.0.22",
+    "pinia": "^2.0.0",
+    "roboto-fontface": "*",
+    "vue": "^3.2.0",
+    "vue-axios": "^3.5.2",
+    "vue-router": "^4.0.0",
+    "vuetify": "^3.0.0",
+    "webfontloader": "^1.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.3",
+    "eslint": "^8.37.0",
+    "eslint-plugin-vue": "^9.3.0",
+    "sass": "^1.60.0",
+    "vite": "^4.3.9",
+    "vite-plugin-vuetify": "^1.0.0"
+  }
+}
