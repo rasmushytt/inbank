@@ -4,11 +4,13 @@ This project uses Java 20, Spring Boot and Maven to create a REST API for a bank
 
 # How to run the project:
 
+I used Intellij IDEA to code this project. 
+
 Back-end
 
     Install Maven and Java 20.
     Run Maven BE configuration.
-    Run the project using Spring Boot configuration.
+    Run the project using Spring Boot Start BE configuration.
 
     P.S Maven and Spring Boot configurations are stored as a project file. If they don't work, try the following:
             Right click inBankHomeTask/endPoint/InBankApiEndPoint/pom.xml and click "Add as Maven project"
