@@ -1,6 +1,6 @@
 # InBankBeta
 
-This project uses Java 20, Spring Boot and Maven to create a REST API for a bank. Frontend is created with Vue.js, runs on Vite.
+This project uses Java 20, Spring Boot and Maven to create a REST API for a bank loan calculator. Frontend is created with Vue.js, runs on Vite.
 
 # How to run the project:
 
