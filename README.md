@@ -17,7 +17,7 @@ Front-end
     npm install vite (if not installed)
     npm run dev
 
-You should now have a working loan calulator app
+You should now have a working loan calculator app
 
 
 ## Creator
