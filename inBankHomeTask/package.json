@@ -3,8 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "dev": "concurrently \"cd endPoint/InBankApiEndPoint && mvn clean spring-boot:run\" \"cd .. && vite\""
-  ,
+    "dev": "vite",
     "build": "vite",
     "preview": "vite preview",
     "lint": "eslint . --fix --ignore-path .gitignore"

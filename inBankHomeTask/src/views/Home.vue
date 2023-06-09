@@ -85,11 +85,16 @@
                   </v-col>
                 </v-row>
                 <v-row v-if="loanResponse.loanResult === true">
-                  <v-col>
+                  <v-col class="ml-4">
                     Congratulations! Your loan application has been approved. We are pleased to offer you a
                     maximum loan amount of <span class="bold">{{ loanResponse.approvedLoanAmount }}</span>€
                     with a loan period of <span class="bold">{{ loanResponse.approvedLoanPeriod }}</span> months.
+                    <br>
+                    <br>
+                    <span class="lighter">The calculation is approximate and may differ from the conditions offered to you.
+                    </span>
                   </v-col>
+
                 </v-row>
               </v-card-text>
               <v-card-actions>
@@ -97,7 +102,7 @@
                   :color="inBankPurple"
                   block
                   @click="openDialog = false"
-                >Come to bank </v-btn>
+                >Close offer </v-btn>
               </v-card-actions>
             </v-card>
           </v-dialog>
@@ -196,5 +201,9 @@ export default {
 .custom-menu .v-list-item {
   background-color: #6f42c1;
   color: white;
+}
+.lighter {
+  font-weight: lighter;
+  font-size: 13px;
 }
 </style>
