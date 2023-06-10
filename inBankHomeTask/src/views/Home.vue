@@ -29,7 +29,7 @@
               />
               <v-text-field
                 v-model="requestedLoanAmount"
-                class="shrinkTextField"
+                class="shrinkTextField suffixColor"
                 :rules="[isNumeric, loanAmountTooLowOrTooHigh]"
                 :label="loanAmountString"
                 required
@@ -54,7 +54,7 @@
               />
               <v-text-field
                 v-model="loanPeriod"
-                class="shrinkTextField"
+                class="shrinkTextField suffixColor"
                 :label="loanPeriodString"
                 :rules="[isNumeric, loanPeriodTooLowOrTooHigh]"
                 required
@@ -205,5 +205,8 @@ export default {
 .lighter {
   font-weight: lighter;
   font-size: 13px;
+}
+.suffixColor .v-text-field__suffix {
+  color: inherit;
 }
 </style>
